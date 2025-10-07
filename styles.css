@@ -1,0 +1,398 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color: #000000;
+}
+
+/* All about heading navigation */
+#heading {
+    display: flex;
+    background-color: #FFFFFF;
+    width: 1440px;
+    height: 100px;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    width: 32%;
+    height: 98%;
+}
+
+#navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44%;
+    height: 98%;
+}
+
+#nav-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 98%;
+    font-size: 1.1rem;
+    
+}
+
+#button-nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24%;
+    height: 98%;
+}
+
+#menu, .deserves-text, #girl-image-phone {
+    display: none;
+}
+
+#deserves-image {
+    width: 350px;
+    height: auto;
+}
+
+
+/* All about button */
+.pink-button {
+    background-color: #FA1239;
+    width: 148px;
+    height: 45px;
+    border: 0px;
+    border-radius: 60px;
+    color: #FFFFFF;
+    font-size: 1.1rem;
+    box-shadow: 0px 0px 12px rgba(224, 136, 151, 0.7);
+}
+
+.white-button {
+    background-color: #FFFFFF;
+    width: 195px;
+    height: 45px;
+    border: #FA1239 1px solid;
+    border-radius: 60px;
+    color: #FA1239;
+    font-size: 1.1rem;
+    box-shadow: 0px 0px 12px rgba(224, 136, 151, 0.7);
+    margin-right: 15px;
+}
+
+#bottom-button {
+    background-color: #FFE3E8;
+    border: 0px;
+    border-radius: 5px;
+    width: 150px;
+    height: 45px;
+    font-size: 1.1rem;
+}
+
+/* All about hero section */
+#hero-section {
+    display: flex;
+    width: 1440px;
+    height: 809px;
+    background: linear-gradient(to right, #FFBFCA, #FFE7EB) ;
+    padding: 0px;
+    margin: 0px;
+}
+
+#left {
+    width: 50%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 100px;
+    padding-top: 135px;
+}
+
+.left-content {
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 0px;
+}
+
+#quote-left {
+    margin-top: 55px;
+    margin-bottom: 40px;
+    width: 87%;
+    line-height: 2.2;
+}
+
+#second-lign {
+    margin-top: 15px;
+    margin-left: -3px;
+}
+
+#deserves {
+    padding-left: -5px;
+}
+
+#lets {
+    padding-bottom: 20px;
+    margin: 4px;
+}
+
+#right {
+    display: flex;
+    align-items: end;
+    width: 50%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+#girl-image {
+    width: auto;
+    height: 715px;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* All about frame 559 */
+#frame-559, #frame-567, #frame-557, #frame-551, .square-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#frame-559 {
+    background-color: #FFFFFF;
+    width: 1440px;
+    height: 774px;    
+}
+
+#frame-567 {
+    flex-direction: column;
+    width: 1255px;
+    height: 678px;
+    padding: 0px;
+    gap: 25px;
+    
+}
+
+#frame-557 {
+    flex-direction: column;
+    width: 1240px;
+    height: 178px;  
+}
+
+#quote-heading {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+
+span {
+    color: #FA1239;
+}
+
+#frame-551 {
+    justify-content: space-between;
+    width: 1255px;
+    height: 450px;
+    padding: 0px;
+}
+
+.square-content {
+    flex-direction: column;
+    width: 298.75px;
+    height: 450px;
+    border-radius: 15px;
+    box-shadow: 3px 1px 10px rgba(0, 0, 0, 0.1);
+    padding-top: 20px;
+}
+
+#quote-heading, .quote-title, .quote {
+    text-align: center;
+    line-height: 1.6;
+    
+}
+
+.quote-title {
+    margin-top: 45px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.quote {
+    color: #263238;
+    font-size: 1.1rem;
+}
+
+#quote-heading-contener {
+        width: 70%;
+    }
+
+
+/* For mobile */
+@media screen and (max-width: 500px) {
+
+    /* All about heading navigation */
+    #heading {
+        display: flex;
+        background-color: #FFFFFF;
+        width: 375px;
+        height: 54.62px;
+    }
+
+    #logo, #button-nav-container {
+        width: 50%;
+    }
+
+    #button-nav-container {
+        justify-content: end;
+        margin-right: 15px;
+    }
+
+    #image-logo {
+        width: auto;
+        height: 40px;
+    }
+
+    #navigation, #heading-button, #deserves, #girl-image {
+        display: none;
+    }
+
+    .deserves-text, #menu, #girl-image-phone {
+        display: block;
+    }
+
+    .deserves-text, .left-content {
+        font-size: 1.8rem;
+    }
+    
+    #menu {
+        width: 15%;
+        height: auto;
+    }
+
+    /* All about hero section */
+    #hero-section {
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+        height: 913px;
+        background: linear-gradient(to bottom, #FECDD5, #ffeaee);
+    }
+
+    #left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        width: 100%;
+        height: 70%;
+        text-align: center;
+    }
+
+     .left-content {
+        gap: 1px;
+        
+        margin: 0px;
+    }
+
+    .deserves-text {
+        color: #FA1239;
+    }
+
+    #quote-left {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 90%;
+        line-height: 2.5;
+        font-size: 0.9rem;
+    }
+
+    #hero-button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    #right {
+        padding: 15px 22px;
+        width: 100%;
+        height: 30%;
+    }
+
+    #girl-image-phone {
+        justify-content: end;
+        width: 80%;
+        height: auto;
+    }
+
+    #second-lign, #lets, #deserves {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #lets {
+        display: block;
+    }
+
+    #deserves {
+        padding-left: 0px;
+    }
+
+    /* All about frame 559 */
+    #frame-559 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        width: 375px;
+        height: 2198.54px;  
+        margin: 0px;
+        padding: 30px 0px 0px 0px; 
+    }
+
+    #frame-557 {
+    flex-direction: column;
+    width: 90%;
+    height: 500px; 
+    margin-top: 50px; 
+}
+
+    #quote-heading-contener {
+        width: 30%;
+    }
+
+    #quote-heading {
+        font-size: 1.5rem;
+    }
+
+    #frame-567 {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;   
+    }
+
+    #frame-551 {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;   
+    }
+
+    .quote-title {
+        line-height: 2;
+    }
+
+    .quote {
+        line-height: 2;
+    }
+}
