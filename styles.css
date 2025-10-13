@@ -446,8 +446,8 @@ span {
     #menu-active {
         position: absolute;
         inset: 0;
-        top: 0;
-        left: 0;
+        left: 50%;
+        transform: translateX(-50%);
         z-index: 2;
         background-color: #263238;
         opacity: 0.5;
@@ -458,20 +458,22 @@ span {
     #menu-container {
         position: absolute;
         inset: 0;
-        top: 0;
-        left: 112px;
-        color: white;
+        left: 50%;
+        transform: translateX(-50%);
         font-size: 2rem;
         z-index: 3;
         background: linear-gradient(to bottom, #f7d4da, #FFE7EB) ;;
         width: 325px;
         height: 3167px;
+        margin-left: 25px;
     }
 
     #bandeau-menu {
         position: relative;
-        left: -50px;
-        width: 376px;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 425px;
         height: 56px;
         background-color: #000000;
     }
