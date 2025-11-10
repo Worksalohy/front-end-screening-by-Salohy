@@ -25,26 +25,42 @@ body {
     align-items: center;
     padding: 0px;
     margin: 0px;
-    width: 30%;
-    height: 98%;
+    width: 430px;
+    height: 100%;
 }
 
 #navigation {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 44%;
+    align-items: start;
+    width: 40%;
     height: 98%;
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 1.125em;
+    padding-left: 82px;
 }
 
-#nav-content {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 80%;
-    height: 98%;
-    font-size: 1.1rem;
+#home, #about, #services, #pricing, #faq {
+    margin-top: 38px;
+}
+
+#home {
+    margin-right: 45px;
+}
+
+#about {
+    margin-right: 44.5px;
+}
+
+#services {
+    margin-right: 45px;
+}
+
+#pricing {
+    margin-right: 45px;
+}
+
+#faq {
+    margin-right: 10px;
 }
 
 #button-nav-container {
@@ -53,7 +69,7 @@ body {
     align-items: center;
     width: 20%;
     height: 98%;
-    padding-left: 60px;
+    padding-left: 34px;
 }
 
 #menu, #menu-active, #menu-container {
@@ -126,11 +142,11 @@ button {
 
 .left-content {
     font-size: 64px;
-    font-weight: bolder;
+    font-weight: bold;
     margin: 0px;
     width: 620px;
     height: 252px;
-    line-height: 1.3;
+    line-height: 1.32;
 }
 
 #underline {
@@ -156,13 +172,14 @@ button {
     align-items: end;
     width: 53%;
     height: 100%;
-    padding-top: 7px;
+    padding-top: 8.5px;
     margin: 0px;
+    padding-right: 1.9px;
 }
 
 #girl-image {
     width: auto;
-    height: 726px;
+    height: 727px;
     padding: 0px;
     margin: 0px;
 }
@@ -177,8 +194,7 @@ button {
 #frame-559 {
     background-color: #FFFFFF;
     width: 1440px;
-    height: 774px;    
-    
+    height: 770px;    /*This height should be 774*/
 }
 
 #frame-567 {
@@ -187,7 +203,7 @@ button {
     width: 1255px;
     height: 678px;
     padding: 0px;
-    gap: 25px;
+    gap: 15px;
 }
 
 #frame-557 {
@@ -195,13 +211,14 @@ button {
     flex-direction: column;
     width: 1240px;
     height: 198px;  
+    gap: 2px;
 }
 
 #quote-heading {
     font-size: 2.7rem;
     font-weight: 900;
     margin: 20px 0px;
-    line-height: 1.2;
+    line-height: 1.26;
     text-align: center;
 }
 
@@ -214,15 +231,17 @@ span {
     width: 1255px;
     height: 450px;
     padding: 0px;
+    padding-left: 15px;
+    margin-top: 16px;
 }
 
 .square-content {
     flex-direction: column;
+    justify-content: start;
     width: 298.75px;
-    height: 450px;
+    height: 450px; /*It should be 450px*/
     border-radius: 15px;
     box-shadow: 3px 1px 10px rgba(0, 0, 0, 0.1);
-    padding-top: 20px;
 }
 
 .quote-title, .quote {
@@ -232,14 +251,21 @@ span {
 }
 
 .quote-title {
-    margin-top: 45px;
+    margin-top: 42px;
     font-size: 1.2rem;
     font-weight: 600;
 }
 
 .quote {
     color: #263238;
-    font-size: 1.1rem;
+    font-size: 1.143rem;
+    margin-top: 4px;
+    margin-left: 2.5px;
+    line-height: 1.62;
+}
+
+.square {
+    margin-top:  45px;
 }
 
 #quote-heading-contener {
@@ -258,6 +284,7 @@ span {
         background-color: #FFFFFF;
         width: 375px;
         height: 54.62px;
+        gap: 20.5px;
     }
 
     #logo, #button-nav-container {
@@ -265,17 +292,17 @@ span {
     }
 
     #logo {
-        padding-left: 12px;
+        padding-left: 4px;
     }
 
     #button-nav-container {
         justify-content: end;
-        padding-right: 16px;
+        padding-right: 10px;
     }
 
     #image-logo {
-        width: 125.61;
-        height: 34.62px;
+        width: 127px;
+        height: 35px;
     }
 
     #navigation, #heading-button {
@@ -284,15 +311,17 @@ span {
 
     #menu {
         display: block;
+        width: 16%;
+        height: auto;
     }
 
     .left-content {
         font-size: 2rem;
-    }
-    
-    #menu {
-        width: 17%;
+        line-height: 1.38;
+        gap: 1px;
+        width: 310px;
         height: auto;
+        margin: 0px;
     }
 
     /* All about hero section */
@@ -315,26 +344,19 @@ span {
         width: 100%;
         height: 70%;
         text-align: center;
-        padding-top: 10px;
+        padding-top: 11px;
     }
 
     #underline {
-    display: none;
-}
-
-    .left-content {
-        gap: 1px;
-        width: 310px;
-        height: auto;
-        margin: 0px;
+        display: none;
     }
 
     #quote-left {
-        margin-top: 9px;
+        margin-top: 10px;
         margin-right: 2px;
-        margin-bottom: 5px;
+        margin-bottom: 3px;
         width: 90%;
-        line-height: 2.1;
+        line-height: 2.13;
         font-size: 1rem;
     }
 
@@ -348,7 +370,12 @@ span {
     }
 
     .white-button {
-        margin-right: 0px;
+        margin-right: 4px;
+        margin-bottom: -1px;
+    }
+
+    #hero-pink-button {
+        margin-right: 4px;
     }
 
     #span-combination {
@@ -357,14 +384,10 @@ span {
         gap: 10px;
     }
 
-    .left-content {
-        line-height: 1.4;
-    }
-
     #right {
         position: relative;
-        padding-left: 9px;
-        padding-bottom: 12px;
+        padding-left: 8px;
+        padding-bottom: 10px;
         width: 100%;
         height: 30%;
     }
@@ -385,6 +408,10 @@ span {
         margin: 0px;
     }
 
+    #bottom-button {
+        font-size: 1.1rem;
+    }
+
     /* All about frame 559 */
     #frame-559 {
         display: flex;
@@ -392,7 +419,7 @@ span {
         align-items: center;
         justify-content: start;
         width: 375px;
-        height: 2198.54px;  
+        height: 2235px;  /*It should be 2198.54px*/
         margin: 0px;
         padding: 0px;
     }
@@ -401,7 +428,7 @@ span {
         flex-direction: column;
         width: 90%;
         height: auto; 
-        margin-top: 40px; 
+        margin-top: 40px;
     }
 
     #quote-heading-contener {
@@ -413,6 +440,8 @@ span {
     #quote-heading {
         font-size: 1.8rem;
         line-height: 1.4;
+        margin-top: 17px;
+        margin-bottom: 16.5px;
     }
 
     #frame-567 {
@@ -430,19 +459,33 @@ span {
         flex-direction: column;
         padding: 0px;
         margin: 0px;  
-        gap: 20px;
+        gap: 25px;
         width: 100%;
     }
 
+    .square-content {
+        box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.1);
+        height: auto;
+    }
+
+    .square {
+        margin-top:  47px;
+        margin-bottom: 0px;
+    }
+
     .quote-title {
-        line-height: 2;
+        line-height: 1.6;
     }
 
     .quote {
-        line-height: 2;
+        line-height: 1.62;
+        margin-bottom: 39px;
+        font-size: 1.144rem;
     }
 
     /* All about menu */
+    
+
     #menu-active {
         position: absolute;
         inset: 0;
@@ -452,7 +495,7 @@ span {
         background-color: #263238;
         opacity: 0.5;
         width: 375px;
-        height: 3167px;
+        height: 100vh;
     }
 
     #menu-container {
@@ -464,7 +507,7 @@ span {
         z-index: 3;
         background: linear-gradient(to bottom, #f7d4da, #FFE7EB) ;;
         width: 325px;
-        height: 3167px;
+        height: 100vh;
         margin-left: 25px;
     }
 
@@ -474,7 +517,7 @@ span {
         left: 50%;
         transform: translateX(-50%);
         width: 425px;
-        height: 56px;
+        height: 40px;
         background-color: #000000;
     }
 
